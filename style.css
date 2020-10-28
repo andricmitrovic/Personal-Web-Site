@@ -1,0 +1,118 @@
+html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100% !important; width: 100% !important; }
+body { background: #F3EFE0; font-size: 15px; line-height: 1.64; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { color:#857CD3 !important;font-family: 'Open Sans', sans-serif !important; padding-top:40px !important; padding-bottom:30px !important; }
+h1,h4 { font-weight: 700; margin-bottom: 10px; }
+h2,h3 { font-weight: 300; color: #22A39F; }
+h2 { font-size: 54px; text-align: center; }
+h3 { font-size: 28px; }
+ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+}
+.header{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;  
+	margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    color:black;
+    background-image: url("body_of_water_planet_horizon_92570_1920x1080.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;   
+}
+.header .ime{position: relative; top: 28%; z-index: 4; text-align: center;}
+.section{
+    width: 100%;
+    height: auto;
+    min-height: 50%;
+    text-align: center;
+    color:black;
+}
+.first_section{
+    background-color:#F2F2F2;
+}
+.smanji{
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.round{border-radius: 50%}
+.slicice{
+    border-radius: 20%;
+    height: 250px !important;
+}
+img{
+    max-width: 100%;
+}
+.margina{padding-top:30px; padding-bottom: 30px;}
+.second_section{
+    background-color: #D7D9DB;
+}
+
+.contact_section{
+    background-color:#F2F2F2;
+}
+.icon { display: inline-block; background: url(sm_icon_sprite.png) no-repeat; filter:invert(100%); height: 32px; width: 32px; }
+.icon.icon-twitter { background-position: 0px 0px; }
+.icon.icon-linkedin { background-position: 0px -32px; }
+.icon.icon-skype { background-position: 0px -64px; }
+.icon.icon-email { background-position: 0px -96px; }
+.icon span {
+	font-size: 18px;
+	line-height: 18px;
+}
+a:hover { text-decoration: none !important; color: grey !important;}
+a:visited{text-decoration: none !important;}
+a { display: inline-block; line-height: 32px; margin-bottom: 20px; opacity: 0.6; filter:alpha(opacity=60); color: black !important; }
+a .icon { float: left; margin-right: 15px; }
+li{margin-bottom: 30px;}
+.row{width: 70%;}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    height: 70px;
+    width: 70px;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    filter: grayscale(80%);
+  }
+  
+  #myBtn:hover {
+    filter: invert(35%); 
+  }
+
+  /*hr {
+    display: inline-block !important;
+    width: 30% !important;
+    color:#857CD3 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:30px !important; border:none; color:rgb(60,90,180); background-color:rgb(60,90,180); 
+    border-radius: 50%;
+  }*/
+
+  hr.type_9 {
+    display: inline-block !important;
+    border: 0px;
+    height: 6px;
+    width: 30% !important;
+    background-image: url(type_9.png);
+    background-repeat: no-repeat;
+    background-color: #857CD3;
+    vertical-align: -25%;
+    
+}
